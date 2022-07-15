@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom";
+import { HashRouter, Routes, Route, Outlet } from "react-router-dom";
 import { List } from './components/list/List';
 import { Profile } from './components/profile/Profile';
 
@@ -11,13 +11,13 @@ import './App.css';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route index element={<List />} />
         <Route path='/demigods/:id' element={<Profile />} />
       </Routes>
       <Outlet />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
