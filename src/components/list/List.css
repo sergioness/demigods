@@ -1,0 +1,25 @@
+.marvel {
+  font-family: "Marvel";
+}
+.greyout {
+  filter: grayscale(100%);
+  text-shadow: -1px -1px 0 var(--surface-0), 1px -1px 0 var(--surface-0),
+    -1px 1px 0 var(--surface-0), 1px 1px 0 var(--surface-0);
+}
+.greyout:hover {
+  filter: none;
+  color: var(--primary-color) !important;
+}
+.marvel-bg {
+  background-position: top left;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.marvel-bg:hover {
+  background-position: center center;
+}
+.p-datatable .p-datatable-tbody > .p-selectable-row > td[role="cell"] {
+  padding: 0;
+  height: fit-content;
+  word-break: normal;
+}

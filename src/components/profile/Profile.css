@@ -1,0 +1,30 @@
+.p-tabview .p-tabview-nav[role="tablist"] {
+  border: none;
+  justify-content: center;
+}
+.p-datatable-scrollable .p-datatable-tbody>tr>td[role="cell"] {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.p-tabview-nav-content {
+  display: flex;
+}
+.p-tabview .p-tabview-nav li.p-tabview-ink-bar {
+  display: none;
+}
+
+#thumbnail {
+  display: block;
+  object-fit: unset;
+  width: 750px;
+  height: 750px;
+  padding: 20px;
+}
+@media only screen and (max-width: 768px) {
+  #thumbnail {
+    object-fit: contain;
+    width: 100%;
+    height: unset;
+  }
+}

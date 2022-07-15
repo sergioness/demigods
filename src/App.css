@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Marvel";
+  src: local("Marvel"), url(./MarvelRegular-Dj83.ttf) format("truetype");
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.image-text {
+  vertical-align: middle;
+  margin-left: 0.5rem;
+}
